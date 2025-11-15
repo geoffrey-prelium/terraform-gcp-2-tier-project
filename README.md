@@ -14,11 +14,6 @@ L'infrastructure est composée des éléments suivants :
 * **Frontend (Module Local)** : 1 VM (`vm-web-frontend`) dans le subnet public, provisionnée avec Nginx.
 * **Backend (Module Local)** : 1 VM (`vm-db-backend`) dans le subnet privé (sans IP publique), provisionnée avec MySQL.
 
-
-
-[Image of 2-tier cloud architecture diagram]
-
-
 ## 🔐 Sécurité
 
 La sécurité est gérée par des **Tags** :
