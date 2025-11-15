@@ -1,0 +1,41 @@
+# ===================================================================
+# Fichiers de "State" (État) de Terraform
+# NE JAMAIS partagervotre "state" local. C'est le cerveau de Terraform.
+# ===================================================================
+terraform.tfstate
+terraform.tfstate.backup
+
+# ===================================================================
+# Fichiers binaires et modules téléchargés
+# Ce dossier est recréé par 'terraform init'. Il est lourd
+# et ne doit pas être versionné.
+# ===================================================================
+.terraform/
+
+# ===================================================================
+# Fichiers de variables locales
+# Ces fichiers contiennent souvent des SECRETS (clés API, mots de passe)
+# pour votre environnement local.
+# ===================================================================
+*.tfvars
+*.auto.tfvars
+
+# ===================================================================
+# Fichiers de crash et logs
+# ===================================================================
+crash.log
+*.log
+
+# ===================================================================
+# Clés privées
+# NE JAMAIS versionner une clé privée.
+# ===================================================================
+*.pem
+*.key
+*.cer
+
+# ===================================================================
+# Fichiers système Windows / VS Code
+# ===================================================================
+.vscode/
+Thumbs.db
